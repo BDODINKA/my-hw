@@ -1,0 +1,12 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testSpanError {
+    color: blue;
+}
+.blue{
+    border-bottom: 5px solid blue;
+}

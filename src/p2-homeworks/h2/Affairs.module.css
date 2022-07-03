@@ -1,0 +1,56 @@
+.someClass {
+
+}
+.affair{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-areas:
+            "a b c d";
+    padding: 5px 0 5px 0 ;
+    background-color: black;
+    color: deeppink;
+}
+.affair button{
+    background-color: blueviolet !important;
+    box-shadow: 0 0 20px greenyellow !important;
+
+}
+
+.affair span:nth-child(1){
+    grid-area: a;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+.affair span:nth-child(2){
+    grid-area: b;
+    color: deepskyblue;
+    display: flex;
+    justify-content: center;
+}
+.affair span:nth-child(3){
+    grid-area: c;
+    display: flex;
+    justify-content: center;
+}
+.affair button:nth-child(4){
+    grid-area: d;
+    color: greenyellow;
+}
+
+
+.affairs{
+    max-width: 400px;
+}
+.affairs button{
+    width: 100px;
+    background-color:black;
+    box-shadow: 0 0 10px blueviolet;
+    color: deeppink;
+}
+.affairs button:hover{
+    width: 100px;
+    background-color:yellow;
+    box-shadow: 0 0 10px blueviolet;
+    color: deeppink;
+}

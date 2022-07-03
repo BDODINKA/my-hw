@@ -1,0 +1,58 @@
+.hw3 div{
+    display: flex;
+    flex-direction: column;
+    max-width: 15%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hw3{
+    font-size: 36px;
+    color: blueviolet;
+    box-shadow: 0 0 10px blue;
+
+}
+.error {
+    border: 3px solid red !important;
+}
+.hw3 input{
+    width: 200px;
+    border: 3px solid #61dafb ;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.hw3 button{
+    color: whitesmoke;
+    background-color: darkslateblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.hw3 :nth-last-child(1) {
+    color: deeppink;
+}
+.hw3 :nth-child(3){
+    order:1;
+}
+.hw3 :nth-child(1){
+    order:2;
+}
+.hw3 :nth-child(2){
+    order:3;
+    font-size: 24px;
+    color: red;
+}
+.hw3 :nth-child(3){
+    order:4;
+}
+
+.someClass {
+
+}
+
+
+
+
+
