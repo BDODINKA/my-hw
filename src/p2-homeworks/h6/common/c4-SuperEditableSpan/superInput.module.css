@@ -1,0 +1,21 @@
+
+
+.editable{
+    display: block;
+    border: 3px solid #000;
+    width: 20%;
+    background: url('https://w7.pngwing.com/pngs/709/553/png-transparent-computer-icons-pencil-pencil-blue-angle-pencil.png') no-repeat ;
+    background-size: auto 100%;
+    text-align: center;
+    background-color: #61dafb;
+
+
+}
+
+/*s.className{*/
+/*    display: block;*/
+/*    width: 20%;*/
+/*    background-color:black;*/
+/*    border: black 2px solid;*/
+/*    height: 30px;*/
+/*}*/
