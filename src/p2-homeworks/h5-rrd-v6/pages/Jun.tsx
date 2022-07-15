@@ -1,10 +1,10 @@
 import React from 'react';
-import HW1 from "../../h1/HW1";
+import HW7 from "../../h7/HW7";
 
 const Jun = () => {
     return (
         <div>
-            <HW1/>
+            <HW7/>
         </div>
     );
 };

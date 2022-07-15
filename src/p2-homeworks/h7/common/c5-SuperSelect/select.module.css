@@ -1,0 +1,18 @@
+.select{
+    display: block;
+    color: #61dafb;
+    width: 2%;
+    background-color: black;
+}
+.select > option:checked{
+    color: yellow;
+    background-color: darkslategrey;
+}
+.div{
+    background: deepskyblue;
+    color: yellow;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

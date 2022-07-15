@@ -1,14 +1,15 @@
 import React, {useState} from 'react'
 import SuperSelect from './common/c5-SuperSelect/SuperSelect'
 import SuperRadio from './common/c6-SuperRadio/SuperRadio'
+import style from './common/c5-SuperSelect/select.module.css'
+import styles from './common/c6-SuperRadio/radio.module.css'
 
 const arr = ['x', 'y', 'z']
 
 function HW7() {
     const [value, onChangeOption] = useState(arr[1])
-
     return (
-        <div>
+        <div className={style.div}>
             <hr/>
             homeworks 7
 
@@ -18,14 +19,16 @@ function HW7() {
                     options={arr}
                     value={value}
                     onChangeOption={onChangeOption}
+                    className={style.select}
                 />
             </div>
-            <div>
+            <div >
                 <SuperRadio
                     name={'radio'}
                     options={arr}
                     value={value}
                     onChangeOption={onChangeOption}
+                    className={styles.radioBtn}
                 />
             </div>
 

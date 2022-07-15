@@ -15,7 +15,7 @@ const defaultAffairs:  Array<AffairType> = [ // need to fix any
     {_id: 4, name: 'work', priority: 'high'},
     {_id: 5, name: 'html & css', priority: 'middle'},
 ]
-console.log(typeof defaultAffairs)
+
 
 // pure helper functions
 export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): Array<AffairType> => { // need to fix any

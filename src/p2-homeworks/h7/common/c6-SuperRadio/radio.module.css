@@ -1,0 +1,26 @@
+.radio{
+    color:yellow;
+    display: inline-flex;
+    line-height: 34px;
+    border: black 2px solid;
+    cursor: pointer;
+    background: url("https://emojio.ru/images/apple-b/270b.png")no-repeat black;
+    background-size: 20px 20px;
+    background-position: center top;
+    padding-top: 25px;
+}
+label{
+    color:yellow;
+    display: inline-flex;
+    justify-content: center;
+    line-height: 34px;
+    border: black 2px solid;
+    background: black;
+    width: 30px;
+    height: 30px;
+}
+
+
+input{
+    display: none;
+}
