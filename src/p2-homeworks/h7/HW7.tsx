@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import SuperSelect from './common/c5-SuperSelect/SuperSelect'
 import SuperRadio from './common/c6-SuperRadio/SuperRadio'
 import style from './common/c5-SuperSelect/select.module.css'
-import styles from './common/c6-SuperRadio/radio.module.css'
+
 
 const arr = ['x', 'y', 'z']
 
@@ -28,7 +28,7 @@ function HW7() {
                     options={arr}
                     value={value}
                     onChangeOption={onChangeOption}
-                    className={styles.radioBtn}
+
                 />
             </div>
 

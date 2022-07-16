@@ -1,0 +1,49 @@
+.boxContainer {
+    background: darkslateblue;
+    color: deepskyblue;
+    font-size: 24px;
+}
+
+.boxPeople {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    max-width: 300px;
+}
+.boxPeople>span{
+    color: yellow;
+}
+.boxPeople>span:nth-child(even){
+    color: lawngreen;
+}
+
+.boxBtn{
+    display: flex;
+    justify-content: space-around;
+    max-width: 340px;
+    padding: 10px 0;
+}
+.sortBtn {
+    display: flex;
+    flex-direction: row;
+    max-width: 100px;
+}
+.sortBtn>button{
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+}
+.sortBtn>button:hover, .sortBtn>button:focus {
+    color: yellowgreen;
+    outline: 0;
+}
+
